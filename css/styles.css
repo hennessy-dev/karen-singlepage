@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+#jumbotron-container{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1523821393989-a61a1f006c8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxNHx8ZHJpdmluZyUyMHNjaG9vbHxlbnwwfHx8fDE2ODY1NzczNzh8MA&ixlib=rb-4.0.3&q=80&w=1080");
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 700px;
+}
+
+#jumbotron-title{
+    font-size: 4rem;
+}
+
+@media (max-width: 730px) {
+    #jumbotron-title {
+    font-size: 2rem;
+    }
+}
+
+
+
+#info-img {
+    background-image: url("https://images.unsplash.com/photo-1541412094143-627a222be46d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxOHx8ZHJpdmluZyUyMHNjaG9vbHxlbnwwfHx8fDE2ODY1NzczNzh8MA&ixlib=rb-4.0.3&q=80&w=1080");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 300px;
+    border: 2px transparent solid;
+    border-radius: 20px;
+}
+
+#info-container {
+    background-color: rgba(162, 162, 162, 0.236);
+}
+
+#items-jumbotron{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
